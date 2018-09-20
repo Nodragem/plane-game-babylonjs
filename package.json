@@ -1,16 +1,16 @@
 {
-  "name": "webpack-prototype",
+  "name": "gameplane",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Assuming that `npm` is installed:",
+  "main": "webpack.config.js",
   "dependencies": {
-    "babylonjs": "^3.2.0"
+    "babylonjs": "^3.3.0-rc.1"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^4.5.2",
-    "ts-loader": "^5.1.0",
+    "ts-loader": "^5.1.1",
     "typescript": "^3.0.3",
-    "webpack": "^4.18.0",
+    "webpack": "^4.19.1",
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.8"
   },
@@ -19,6 +19,14 @@
     "build": "webpack",
     "dev:server": "webpack-dev-server"
   },
-  "author": "Geoffrey",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nodragem/plane-game-babylonjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nodragem/plane-game-babylonjs/issues"
+  },
+  "homepage": "https://github.com/Nodragem/plane-game-babylonjs#readme"
 }

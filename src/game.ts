@@ -1,4 +1,4 @@
-///<reference path="../def/babylon.d.ts" />
+import * as BABYLON from "babylonjs"
 
 class Game {
 
